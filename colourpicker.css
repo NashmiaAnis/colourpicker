@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: beige;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.btn{
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    width:100px;
+    height:100px;
+    cursor :pointer
+}
+.box{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#grey{
+    background-color: gray;
+    border: solid 2px black;
+    cursor :pointer
+
+}
+#white{
+    background-color: whitesmoke;
+    border: solid 2px black;
+    cursor :pointer;
+
+}
+
+#blue{
+    background-color: blue;
+    border: solid 2px black;
+    cursor :pointer;
+
+}
+#yellow{
+    background-color: yellow;
+    border: solid 2px black;
+    cursor :pointer;
+
+}
+h1,h2{
+    text-align: center;
+}
+@media  only screen  and (max-width:600px) {
+    .btn{
+        width:80px;
+        height: 80px;
+        
+    }
+
+    
+}
+@media  only screen  and (max-width:400px) {
+    .btn{
+        width:60px;
+        height: 60px;
+        
+    }
+}
